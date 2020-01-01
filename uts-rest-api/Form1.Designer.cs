@@ -33,6 +33,8 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelLeft = new System.Windows.Forms.Panel();
+            this.buttonEgC0018099 = new System.Windows.Forms.Button();
+            this.buttonAppendTicket = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.buttonGetSandbox = new System.Windows.Forms.Button();
             this.textBoxSandbox = new System.Windows.Forms.TextBox();
@@ -56,8 +58,6 @@
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.panelRight = new System.Windows.Forms.Panel();
             this.textBoxResult = new System.Windows.Forms.TextBox();
-            this.buttonAppendTicket = new System.Windows.Forms.Button();
-            this.buttonEgC0018099 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panelLeft.SuspendLayout();
             this.panelRight.SuspendLayout();
@@ -92,7 +92,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -126,6 +126,26 @@
             this.panelLeft.Name = "panelLeft";
             this.panelLeft.Size = new System.Drawing.Size(521, 508);
             this.panelLeft.TabIndex = 2;
+            // 
+            // buttonEgC0018099
+            // 
+            this.buttonEgC0018099.Location = new System.Drawing.Point(399, 86);
+            this.buttonEgC0018099.Name = "buttonEgC0018099";
+            this.buttonEgC0018099.Size = new System.Drawing.Size(116, 30);
+            this.buttonEgC0018099.TabIndex = 8;
+            this.buttonEgC0018099.Text = "e.g. C0018099";
+            this.buttonEgC0018099.UseVisualStyleBackColor = true;
+            this.buttonEgC0018099.Click += new System.EventHandler(this.buttonEgC0018099_Click);
+            // 
+            // buttonAppendTicket
+            // 
+            this.buttonAppendTicket.Location = new System.Drawing.Point(252, 404);
+            this.buttonAppendTicket.Name = "buttonAppendTicket";
+            this.buttonAppendTicket.Size = new System.Drawing.Size(128, 25);
+            this.buttonAppendTicket.TabIndex = 19;
+            this.buttonAppendTicket.Text = "&Append ticket";
+            this.buttonAppendTicket.UseVisualStyleBackColor = true;
+            this.buttonAppendTicket.Click += new System.EventHandler(this.buttonAppendTicket_Click);
             // 
             // label4
             // 
@@ -237,7 +257,7 @@
             // 
             // buttonEg90560007
             // 
-            this.buttonEg90560007.Location = new System.Drawing.Point(399, 86);
+            this.buttonEg90560007.Location = new System.Drawing.Point(399, 59);
             this.buttonEg90560007.Name = "buttonEg90560007";
             this.buttonEg90560007.Size = new System.Drawing.Size(116, 30);
             this.buttonEg90560007.TabIndex = 9;
@@ -341,26 +361,6 @@
             this.textBoxResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxResult.Size = new System.Drawing.Size(543, 508);
             this.textBoxResult.TabIndex = 0;
-            // 
-            // buttonAppendTicket
-            // 
-            this.buttonAppendTicket.Location = new System.Drawing.Point(252, 404);
-            this.buttonAppendTicket.Name = "buttonAppendTicket";
-            this.buttonAppendTicket.Size = new System.Drawing.Size(128, 25);
-            this.buttonAppendTicket.TabIndex = 19;
-            this.buttonAppendTicket.Text = "&Append ticket";
-            this.buttonAppendTicket.UseVisualStyleBackColor = true;
-            this.buttonAppendTicket.Click += new System.EventHandler(this.buttonAppendTicket_Click);
-            // 
-            // buttonEgC0018099
-            // 
-            this.buttonEgC0018099.Location = new System.Drawing.Point(399, 59);
-            this.buttonEgC0018099.Name = "buttonEgC0018099";
-            this.buttonEgC0018099.Size = new System.Drawing.Size(116, 30);
-            this.buttonEgC0018099.TabIndex = 8;
-            this.buttonEgC0018099.Text = "e.g. C0018099";
-            this.buttonEgC0018099.UseVisualStyleBackColor = true;
-            this.buttonEgC0018099.Click += new System.EventHandler(this.buttonEgC0018099_Click);
             // 
             // Form1
             // 

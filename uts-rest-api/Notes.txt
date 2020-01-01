@@ -1,2 +1,2 @@
 ﻿Notes:
-consider making a textbox to paste query in and send POST with that uri and a ticket appended
+consider making a textbox to paste query in and send POST with that uri and a ticket appended  -done

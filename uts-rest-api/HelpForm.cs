@@ -27,7 +27,11 @@ namespace uts_rest_api
         "NOTICE:  Users MUST use their own UMLS license, which may be optained UMLS Terminology Services " +
           "at the above website, under the option, 'Request a License.' \r\n" +
 
-        "For more information please see the UMLS REST API[technical documentation] (https://documentation.uts.nlm.nih.gov/rest/home.html). \r\n\r\n\r\n" +
+        "For more information please see the UMLS REST API[technical documentation] (https://documentation.uts.nlm.nih.gov/rest/home.html). \r\n\r\n" +
+
+            "SANDBOX:  Many UTS calls return uri's (uniform resource identifiers) to request more information.  " +
+            "You may copy and paste these and edit them " +
+            "as you like, then click [append ticket] then [get] to try them out. \r\n\r\n\r\n" +
 
         "This program is open source and references the code library Newtonsoft.Json.dll, which is included in the files, " +
         "and the open source code is available at https://www.newtonsoft.com/json \r\n" +
